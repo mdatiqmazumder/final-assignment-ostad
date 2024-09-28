@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    * {
+      box-sizing: border-box;
+    }
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+  }
